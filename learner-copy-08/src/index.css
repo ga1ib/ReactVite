@@ -1,0 +1,55 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  
+}
+.color-pickier-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #edf4cd;
+  
+
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+ 
+}
+.color-display{
+  width: 250px;
+  height: 200px;
+  display: flex;
+  transition: 0.25s ease;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.color-display p{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+label{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  
+ 
+}
+input[ type="color"]{
+  height: 50px;
+  width: 70px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 5px;
+  
+}
